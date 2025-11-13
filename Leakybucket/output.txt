@@ -1,0 +1,57 @@
+Enter bucket size (max capacity): 10
+Enter output rate (packets per second): 1
+Enter number of packets: 5
+Enter arrival time of packet 1: 0
+Enter size of packet 1: 6
+Enter arrival time of packet 2: 1
+Enter size of packet 2: 4
+Enter arrival time of packet 3: 2
+Enter size of packet 3: 3
+Enter arrival time of packet 4: 3
+Enter size of packet 4: 1
+Enter arrival time of packet 5: 4
+Enter size of packet 5: 0
+
+--- Leaky Bucket Simulation ---
+
+Time 0s:
+Packet of size 6 arrives.
+Bucket before arrival: 0
+Packet added. Bucket now has 6 units.
+Sent out 1 units. Bucket now has 5 left.
+
+Time 1s:
+Packet of size 4 arrives.
+Bucket before arrival: 4
+Packet added. Bucket now has 8 units.
+Sent out 1 units. Bucket now has 7 left.
+
+Time 2s:
+Packet of size 3 arrives.
+Bucket before arrival: 6
+Packet added. Bucket now has 9 units.
+Sent out 1 units. Bucket now has 8 left.
+
+Time 3s:
+Packet of size 1 arrives.
+Bucket before arrival: 7
+Packet added. Bucket now has 8 units.
+Sent out 1 units. Bucket now has 7 left.
+
+Time 4s:
+Packet of size 0 arrives.
+Bucket before arrival: 6
+Packet added. Bucket now has 6 units.
+Sent out 1 units. Bucket now has 5 left.
+
+Time 5s: Sent out 1 units. Bucket now has 4 left.
+
+Time 6s: Sent out 1 units. Bucket now has 3 left.
+
+Time 7s: Sent out 1 units. Bucket now has 2 left.
+
+Time 8s: Sent out 1 units. Bucket now has 1 left.
+
+Time 9s: Sent out 1 units. Bucket now has 0 left.
+
+=== Code Execution Successful ===
